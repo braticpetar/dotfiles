@@ -160,7 +160,7 @@ workspace 0 output $Philips
     bindsym $mod+minus scratchpad show
 
     # Screenshot and add to clipboard
-    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | tee screenshot-$(date +%F-%H%M).png | wl-copy
+    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | tee Pictures/ss/screenshot-$(date +%F-%H%M).png | wl-copy
 #
 # Resizing containers:
 #
@@ -228,7 +228,5 @@ client.focused_inactive #000000 #000000 #ff9c00 #000000 #000000
 
 ### Yellow tint filter
 exec_always gammastep -O 3200
-### Bash script for random wallpapers
-exec "cd /home/p/.scripts/ && ./random-wallpaper.sh"
 
 include /etc/sway/config.d/*
