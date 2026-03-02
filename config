@@ -160,7 +160,7 @@ workspace 0 output $Philips
     bindsym $mod+minus scratchpad show
 
     # Screenshot and add to clipboard
-    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | tee Pictures/ss/screenshot-$(date +%F-%H%M).png | wl-copy
+    bindsym $mod+Shift+s exec grim -g "$(slurp)" - | tee Pictures/Screenshots/screenshot-$(date +%F-%H%M).png | wl-copy
 #
 # Resizing containers:
 #
