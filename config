@@ -24,7 +24,7 @@ set $Asus HDMI-A-1
 ### Output configuration
 #
 # Wallpaper
-output * bg /home/p/Pictures/Wallpapers/crow.png fill
+output * bg /home/p/Pictures/videogame-photography/Bloodborne/crow.png fill
 # Monitor places
 output $Philips resolution 1920x1080@75.025Hz  position 0,0
 output $Asus resolution 1920x1080@75.025Hz position 1920,0
