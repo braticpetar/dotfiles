@@ -1,5 +1,6 @@
 # Environment variables
 export VULKAN_SDK=$(ls -d $HOME/vulkansdk/* | sort -V| tail -n 1)
+export VK_LAYER_PATH=/usr/share/vulkan/explicit_layer.d
 
 source $VULKAN_SDK
 
