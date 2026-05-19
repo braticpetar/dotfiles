@@ -1,3 +1,9 @@
+# Environment variables
+export VULKAN_SDK=$(ls -d $HOME/vulkansdk/* | sort -V| tail -n 1)
+
+source $VULKAN_SDK
+
+
 # Created by newuser for 5.9
 PROMPT='[%n@%m %~]$ '
 
