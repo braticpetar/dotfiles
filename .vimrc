@@ -77,6 +77,10 @@ set encoding=utf-8
 set hlsearch      " highlight searches
 set t_Co=256
 colorscheme industry 
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+highlight LineNr ctermbg=NONE guibg=NONE
+highlight SignColumn ctermbg=NONE guibg=NONE
 set wildmenu
 
 " ##############################
